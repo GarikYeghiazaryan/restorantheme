@@ -1,0 +1,142 @@
+body{
+	
+	background-image: url("kaf.jpg");
+	background-repeat: no-repeat;
+	
+}
+.main{
+	width: 1000px;
+	height: 1000px;
+	margin: auto;
+	background-color: white;
+}
+.header{
+	width: 1000px;
+	height:200px;
+	background-image: url("hg.jpg") ;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+}
+
+.menu{
+	background-color: black;
+	display: flex;
+
+}
+
+.logo{
+	float: left;
+	width: 150px;
+
+}
+.herax{
+	float: right;
+}
+ul{
+	display: flex;
+
+	list-style-type: none;
+}
+.a{
+	padding-left: 55px;
+	text-decoration: none;
+	color: white;
+
+
+}
+.a:active{
+	padding-left: 60px;
+	text-decoration: none;
+	color: blue;
+
+}
+
+
+.container
+{
+ padding: 20px;
+ background-color: white;
+
+}
+
+
+.footer{
+	background-color: grey;
+	height:80px;
+	width: 1000px;
+	margin: auto;
+
+}
+
+h1{
+	font-family: "Comic Sans MS";
+}
+
+h4{
+	margin-left: 80px;
+	font-family: "Comic Sans MS";
+	font-size: 20px;
+}
+.himar{
+	width:700px;
+	float: right;
+	font-size: 35px;
+}
+h3{
+	margin-left:20px;
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    width: 149px;
+    height: 40px;
+
+
+}
+
+
+.dropdown {
+	border:1px solid black;
+    position: relative;
+    display: inline-block;
+   margin-top:28px;
+
+     
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 147px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+
+.dropdown-content a {
+    color: red;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color:black}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: blue;
+
+}

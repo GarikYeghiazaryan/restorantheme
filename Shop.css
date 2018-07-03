@@ -1,0 +1,81 @@
+body{
+	
+	background-image: url("kaf.jpg");
+	background-repeat: no-repeat;
+
+}
+.main{
+	width: 1000px;
+	overflow: auto;
+	margin: auto;
+	background-color: white;
+}
+.header{
+	width: 1000px;
+	height: 200px;
+	background-image: url("hg.jpg") ;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+}
+
+.menu{
+	background-color: black;
+	display: flex;
+
+}
+
+.logo{
+	float: left;
+	width: 150px;
+
+}
+.phone{
+	float: right;
+}
+
+ul{
+	display: flex;
+	list-style-type: none;
+}
+.a{
+	padding-left: 55px;
+	text-decoration: none;
+	color: white;
+
+
+}
+.a:active{
+	padding-left: 60px;
+	text-decoration: none;
+	color: blue;
+
+}
+
+
+
+.gaf{
+	text-align: center;
+	margin-left: 110px;
+}
+
+.footer{
+	margin: auto;
+	background-color: grey;
+	width: 1000px;
+	height: 80px;
+
+}
+h3{
+	padding-left: 25px;
+}
+h4{
+	font-family: "Comic Sans MS";
+	margin-left: 80px;
+	font-size: 20px;
+}
+.item{
+	float: left;
+	margin: 50px;
+}
+
